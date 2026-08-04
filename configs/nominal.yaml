@@ -1,0 +1,10 @@
+plant: kinematic-bicycle
+controller: mpc
+estimator: full-state
+scenario: curved-road
+seed: 0
+duration_s: 8.0
+sample_time_s: 0.1
+friction_scale: 1.0
+delay_steps: 0
+

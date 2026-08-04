@@ -1,0 +1,6 @@
+{
+  "lateral_rmse_m": 0.3219890466686469,
+  "constraint_violations": 0,
+  "median_solve_time_ms": 12.5709375,
+  "p99_solve_time_ms": 21.671168109999957
+}

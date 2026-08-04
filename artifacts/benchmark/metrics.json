@@ -1,0 +1,62 @@
+{
+  "pure-pursuit": {
+    "nominal": {
+      "lateral_rmse_m": 0.20645548702010427,
+      "constraint_violations": 0,
+      "median_solve_time_ms": 0.0,
+      "p99_solve_time_ms": 0.0
+    },
+    "low-friction": {
+      "lateral_rmse_m": 0.20645548702010427,
+      "constraint_violations": 0,
+      "median_solve_time_ms": 0.0,
+      "p99_solve_time_ms": 0.0
+    },
+    "latency-200ms": {
+      "lateral_rmse_m": 0.21756041715163532,
+      "constraint_violations": 0,
+      "median_solve_time_ms": 0.0,
+      "p99_solve_time_ms": 0.0
+    }
+  },
+  "lqr": {
+    "nominal": {
+      "lateral_rmse_m": 0.22032599128024324,
+      "constraint_violations": 0,
+      "median_solve_time_ms": 0.0,
+      "p99_solve_time_ms": 0.0
+    },
+    "low-friction": {
+      "lateral_rmse_m": 0.22032599128024324,
+      "constraint_violations": 0,
+      "median_solve_time_ms": 0.0,
+      "p99_solve_time_ms": 0.0
+    },
+    "latency-200ms": {
+      "lateral_rmse_m": 1.0397846305881213,
+      "constraint_violations": 12,
+      "median_solve_time_ms": 0.0,
+      "p99_solve_time_ms": 0.0
+    }
+  },
+  "mpc": {
+    "nominal": {
+      "lateral_rmse_m": 0.3219890466686469,
+      "constraint_violations": 0,
+      "median_solve_time_ms": 11.9153335,
+      "p99_solve_time_ms": 17.06007943
+    },
+    "low-friction": {
+      "lateral_rmse_m": 0.26100281304966777,
+      "constraint_violations": 0,
+      "median_solve_time_ms": 13.247958,
+      "p99_solve_time_ms": 17.999459249999987
+    },
+    "latency-200ms": {
+      "lateral_rmse_m": 2.603315010691837,
+      "constraint_violations": 45,
+      "median_solve_time_ms": 5.849896,
+      "p99_solve_time_ms": 13.742379859999978
+    }
+  }
+}

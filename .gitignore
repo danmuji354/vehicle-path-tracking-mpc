@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+artifacts/*
+artifacts/*/*
+!artifacts/.gitkeep
+!artifacts/nominal/
+!artifacts/nominal/metrics.json
+!artifacts/nominal/manifest.json
+!artifacts/nominal/response.png
+!artifacts/benchmark/
+!artifacts/benchmark/metrics.json
+!artifacts/benchmark/manifest.json

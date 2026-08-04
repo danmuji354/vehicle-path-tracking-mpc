@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: Vehicle Path Tracking MPC
+message: Cite this repository and any solver backend used in published experiments.
+type: software
+authors:
+  - alias: danmuji354
+version: 0.1.0
+license: MIT
+

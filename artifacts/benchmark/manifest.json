@@ -1,0 +1,13 @@
+{
+  "suite": "standard",
+  "controllers": [
+    "pure-pursuit",
+    "lqr",
+    "mpc"
+  ],
+  "scenarios": [
+    "nominal",
+    "low-friction",
+    "latency-200ms"
+  ]
+}
