@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "repository": "vehicle-path-tracking-mpc",
+  "title": "Vehicle Path Tracking MPC",
+  "tagline": "Pure Pursuit, LQR, and constrained nonlinear MPC on one benchmark.",
+  "accent": "#2563eb",
+  "highlights": [
+    {
+      "label": "nominal MPC RMSE",
+      "value": "0.322 m"
+    },
+    {
+      "label": "constraint violations",
+      "value": "0"
+    },
+    {
+      "label": "median solve",
+      "value": "14.6 ms"
+    }
+  ],
+  "assets": [
+    {
+      "path": "hero.png",
+      "role": "hero",
+      "width": 1600,
+      "height": 900,
+      "alt": "Three controllers tracking a shared curved road reference."
+    },
+    {
+      "path": "benchmark.png",
+      "role": "analysis",
+      "width": 1600,
+      "height": 900,
+      "alt": "Tracking-error heatmap and MPC solve-time comparison."
+    },
+    {
+      "path": "demo.gif",
+      "role": "animation",
+      "width": 720,
+      "height": 405,
+      "alt": "Animated nonlinear MPC vehicle following the lane center."
+    },
+    {
+      "path": "architecture.svg",
+      "role": "diagram",
+      "width": 1270,
+      "height": 270,
+      "alt": "Reference, MPC, constrained actuation, and bicycle-model loop."
+    }
+  ],
+  "reproduce": "python -m vehicle_mpc.gallery --output artifacts/gallery"
+}

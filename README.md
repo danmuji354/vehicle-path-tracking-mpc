@@ -2,14 +2,14 @@
 
 A constrained path-tracking benchmark for a kinematic bicycle model. Pure Pursuit and gain-scheduled lateral feedback are compared with warm-started nonlinear MPC across curvature, reduced steering authority, and command latency.
 
-![Nominal MPC path tracking](artifacts/nominal/response.png)
+![Constrained path tracking on a curved road](artifacts/gallery/hero.png)
 
 | Nominal MPC result | Value |
 |---|---:|
 | Lateral RMSE | 0.3220 m |
 | Constraint violations | 0 |
-| Median solve time | 12.6 ms |
-| p99 solve time | 21.7 ms |
+| Median solve time | 14.6 ms |
+| p99 solve time | 24.7 ms |
 
 ## Quick start
 
@@ -18,8 +18,19 @@ python -m venv .venv && source .venv/bin/activate
 pip install -e ".[dev]"
 python -m vehicle_mpc.simulate --config configs/nominal.yaml
 python -m vehicle_mpc.benchmark --suite standard
+python -m vehicle_mpc.gallery --output artifacts/gallery
 pytest
 ```
+
+## Website-ready gallery
+
+![Animated MPC path tracking](artifacts/gallery/demo.gif)
+
+![Controller robustness and solver timing](artifacts/gallery/benchmark.png)
+
+![Plant, controller, and benchmark architecture](artifacts/gallery/architecture.svg)
+
+`artifacts/gallery/showcase.json` exposes stable titles, result highlights, alt text, dimensions, and the generation command for a portfolio site. `benchmark_metrics.csv` is the graph provenance. Timing is machine-specific and the acceptance target applies to median solve time.
 
 ## Original contributions
 

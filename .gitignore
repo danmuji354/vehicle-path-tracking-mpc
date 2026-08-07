@@ -13,3 +13,10 @@ artifacts/*/*
 !artifacts/benchmark/
 !artifacts/benchmark/metrics.json
 !artifacts/benchmark/manifest.json
+!artifacts/gallery/
+!artifacts/gallery/hero.png
+!artifacts/gallery/benchmark.png
+!artifacts/gallery/demo.gif
+!artifacts/gallery/architecture.svg
+!artifacts/gallery/showcase.json
+!artifacts/gallery/benchmark_metrics.csv
